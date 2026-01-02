@@ -59,6 +59,9 @@ app.add_middleware(
 
 BASE_DIR = Path(__file__).resolve().parent
 FRONTEND_DIR = BASE_DIR.parent / "frontend"
+# BASE_DIR = Path(__file__).resolve().parent
+# FRONTEND_DIR = BASE_DIR / "frontend"
+
 
 # -------------------------
 # STATIC FILES
